@@ -1,0 +1,10 @@
+.nocollect,.nocollect2{
+       width: 70px;
+       position: fixed;
+       left: 50%;
+       top: 50%;
+       transform: translate(-50%,-50%);
+}
+.nocollect2{
+       top:60%; 
+}

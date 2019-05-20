@@ -1,0 +1,60 @@
+.setwidth{
+      width: 100%;
+      /* background-color: rebeccapurple; */
+}
+.imgtxt_list{
+      width: 90%;
+      margin: 0 auto;
+      display: flex;
+      padding-top: 10px;
+      border-bottom: 1px solid #2eb3a4;
+      padding-bottom: 15px;
+}
+.evencolor{
+      border-bottom:1px solid #eb6438; 
+}
+.imgtxt_list .imgbox{
+      width: 90px;
+      height: 60px;
+      display: inline-block;
+      background-color: red;
+      border-radius:5px;   
+}
+.imgtxt_list .txtbox{
+      flex: 1;  
+      padding-left: 16px;
+      position: relative;
+}
+.txtbox .txt_title,.txtbox .txt_ct{
+       font-size: 12px;
+       font-weight: 600;
+       display: inline-block;
+       padding-right: 8px;
+       border-right: 1px solid #000; 
+}
+.txtbox .txt_ct{
+       font-weight: 100;
+       padding-right: 0;
+       border: 0;
+       color: #656766;
+       padding-left: 8px; 
+} 
+.txtbox image{
+       position: absolute;
+       width: 30px;
+       display: inline-block;
+       right: 0px;
+       top: 8px;
+}
+.txttime,.times{
+       font-weight: 100;
+       font-size: 13px;
+       display: block;
+       color: #656766;
+       padding-top: 8px;
+       float: left;
+}
+.times{
+       float: right;
+       padding-right: 5px;
+}

@@ -1,0 +1,355 @@
+.hander,.c_image{
+       width: 100%;
+}
+.hander_banal{
+       width: 90%;
+       display: block;
+       margin: 0 auto;
+       border-radius: 10px;
+       box-shadow: 0px 0px 3px #2eb3a4;
+}
+.c_banal{
+       width: 90%;
+       display: block;
+       margin: 0 auto;
+       border-radius: 10px;
+       box-shadow: 0px 0px 3px #2eb3a4;
+}
+.h_title{
+      font-size: 17px;
+      display: block;
+      width: 90%;
+      text-align: center;
+      padding-top: 30px;
+      margin: 0 auto;
+      border-bottom: 1px solid #2eb3a4;
+      padding-bottom: 8px;
+}
+.time{
+  padding-bottom: 10px;
+}
+.time,.p_txt,.p_txt2,.p_txt3{
+      display: block;
+      width: 90%;
+      font-size: 14px;
+      color: #414141;
+      margin: 0 auto;
+      padding-top: 10px;
+}
+.p_txt2{
+       padding-bottom: 10px;
+}
+.p_txt3{
+       padding-bottom: 40px;
+}
+.txtimg{
+       width: 90%;
+       display: flex;
+       margin: 0 auto;
+       margin-bottom: 50px;
+}
+.hrbox{
+       width: 60%;
+       position: relative;
+}
+.imgshare{
+      flex: 1;
+}
+.hr{
+      border-top:1px solid #2eb3a4;
+      display: block;
+      width: 100%;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      font-size: 14px;
+      color: #414141;
+      padding-top: 3px;
+}
+.timeline{
+      width: 90%;
+      margin: 0 auto;
+      /* padding-top: 20px; */
+      float: left;
+      
+}
+.timeline .t_img{
+       width: 15%;
+       float: left;
+       /* background-color: red; */
+       /* height: 50px; */
+}
+ .t_img image{
+        width: 50px;
+        height: 50px;
+ }
+.timeline .message{
+       width: calc(60% - 1px);
+       float: left;
+       /* height: 50px; */
+       
+       padding-left: 5px;
+       box-sizing: border-box;
+       padding-top: 15px;
+       position: relative;
+       padding-top: 20px;
+      border-left: 1px solid #414141;
+}
+.timeline .showtime{
+       width: 25%;
+       float: left;
+       padding-top: 15px;
+       /* height: 50px; */
+}
+.t_icon{
+       width: 25px;
+       display: inline-block;
+       float: left;
+}
+.nickname{
+        font-size: 15px;
+        float: left;
+        font-weight: 600;
+        padding-left: 6px;
+        line-height: 25px;
+}
+.delinfo{
+        display: block;
+        width: 100%;
+        font-size: 11px;
+        float: left;
+        color: #888;
+        padding-left: 3px;
+        padding-right: 10px;
+        box-sizing: border-box;
+}
+.collicon{
+        display: inline-block;
+        width: 25px;
+        float: left;
+        display: none;
+}
+.zan{
+         display: inline-block;
+}
+.collnum{
+        display: inline-block;
+        font-size: 12px;
+        color: #888;
+        float: left;
+        line-height: 30px;
+}
+.delicon{
+         width: 25px;
+         display: block;
+         float: left;
+}
+.colltime{
+          width: 100%;
+          float: left;
+          font-size: 9px;
+          padding-top: 18px;
+}
+.doticon{
+          position: absolute;
+          left: -5px;
+          top: 35px; 
+          width: 10px;
+}
+.f_zhanwei{
+          width: 100%;
+          height: 30px; 
+          float: left;
+}
+.foot_box{
+           width: 100%;
+           height: 70px;
+           position: fixed;
+           background-color: white;
+           left: 0;
+           bottom: 0;
+           padding: 25px 30px 0px 30px;
+           box-sizing: border-box;
+           box-shadow: 0px 2px 10px 1px #eb6438; 
+}
+.giftbox{
+           width: 100%;
+           float: left;
+}
+.giftlink{
+           width: 196px;
+           display: block;
+           margin: 0 auto;
+           margin-top: 48px;
+}
+.foot_box image{
+           display: inline-block;
+           width: 25px;  
+           float: left;   
+}
+.foot_box text{
+            display: inline-block;
+            float: left; 
+            color: #888;
+            padding-left: 13px;
+            font-size: 14px;
+            line-height: 30px;
+            color: #2eb3a4;
+}
+.foot_box .infonum,.foot_box .collnum{
+            position: fixed;
+            right: 115px;
+            bottom: 46px;
+            font-size: 8px;
+            display: block;
+            width: 5px;
+            height: 5px;
+}
+.foot_box .collnum{
+            right: 75px;  
+}
+.foot_box image:nth-child(3),.foot_box image:nth-child(4),.foot_box image:nth-child(5),.foot_box image:nth-child(6){
+             float: right;
+             margin-right: 12px; 
+}
+.foot_box button{
+             position: fixed;
+             right: 35px;
+             bottom: 15px;
+             width: 30px;
+             height: 30px;
+             opacity: 0;
+}
+ /* 留言区域 */
+.remarkbox{
+             position: fixed;
+             left: 0;
+             bottom:0;
+             background-color: white;
+             z-index: 99;
+             width: 100%;
+             height: 160px;
+             padding-top: 20px;
+             box-sizing: border-box;
+             display: none;
+}
+.remarkbox textarea{
+             border-radius: 5px;
+             width: 90%;
+             display: block;
+             margin: 0 auto; 
+             box-shadow: -0.5px -0.5px 5px  #eb6438;
+             height: 80px;  
+             text-indent: 10px;
+             padding-top: 10px;
+             box-sizing: border-box;
+             padding-right: 10px;
+             font-weight: 100;
+             font-size: 14px;
+}
+.areastyle{
+             font-size: 10px;
+             
+}
+.subbtn{
+             width: 100px;
+             /* height: 30px; */
+             /* font-size: 12px; */
+             /* color: white; */
+             /* border-radius: 5px; */
+             /* background-color: #eb6438; */
+             float: right;
+             margin-top: 8px;
+             margin-right:5%;
+             display: block;
+}
+/* 遮罩 */
+.zhezhao{
+              position: fixed;
+              left: 0;
+              top: 0;
+              background-color: rgba(0,0,0,0.3);
+              width: 100%;
+              height: 100%; 
+              display: none;
+}
+/* 保存成功的提示 */
+.popshow{
+             width: 70%;
+             height: 130px;
+             position: fixed;
+             left: 50%;
+             top: 50%;
+             transform: translate(-50%,-50%);
+             background-color: white;
+             border-radius: 5px;
+             padding-top: 20px;
+             box-sizing: border-box;
+             display: none;
+}
+.popshow text:nth-child(1),.popshow text:nth-child(2){
+              display: block;
+              width: 100%;
+              text-align: center;
+              color: #2eb3a4;
+              font-weight: 600;
+              font-size: 16px;
+              letter-spacing:1.5px;
+}
+.popshow text:nth-child(2){
+              font-weight: 100;
+              font-size: 12px;
+              padding-top: 10px;
+}
+.popshow image{
+               display: block;
+               width: 70%;
+               margin: 0 auto;
+               /* text-align: center; */
+               margin-top: 15px;
+               /* font-size: 14px; */
+               /* letter-spacing: 8px; */
+               /* color: #eb6438; */
+               /* border-radius: 5px; */
+               /* box-shadow: -0.5px -0.5px 5px  #eb6438; */
+               /* line-height: 28px; */
+}
+.setheigh{
+               min-height: 500px;
+}
+.canvas{
+              position: fixed;
+              left: 0;
+              top: 0; 
+              z-index: 9999; 
+              display: none;
+              /* background-color: red;                  */
+}
+@keyframes uppop{
+         0%{bottom:-140px;}
+         100%{bottom: 0;}     
+}
+@keyframes downpop{
+         0%{bottom:0;}
+         100%{bottom:-140px;display: none;}     
+}
+
+.uppop{
+     display: block;
+     animation: uppop 0.5s 1;
+}
+.downpop{
+     animation: downpop 1s 1;     
+}
+.colled{
+     display: block !important;
+}
+.nocolled{
+     display: none !important;
+}
+.show{
+     display: block !important;
+}
+.hide{
+      display: none !important; 
+}

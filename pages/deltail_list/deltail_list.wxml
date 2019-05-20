@@ -1,0 +1,110 @@
+<canvas canvas-id='share' style="width:375px;height:1000px;"  class="canvas"></canvas>
+<scroll-view scroll-y="true" scroll-into-view="{{toView}}" scroll-with-animation="true" class="setheigh"
+style='height:{{boxHeight}}px;' bindscroll="bindscroll" bindtap ="bindscroll">
+<view>
+    <view class="hander">
+        <image mode="widthFix" src="http://game.flyh5.cn/resources/game/wechat/file/mtimg/banal1.png" class="hander_banal"></image>
+        <!-- <video mode="widthFix" src='http://wxsnsdy.tc.qq.com/105/20210/snsdyvideodownload?filekey=30280201010421301f0201690402534804102ca905ce620b1241b726bc41dcff44e00204012882540400&bizid=1023&hy=SH&fileparam=302c020101042530230204136ffd93020457e3c4ff02024ef202031e8d7f02030f42400204045a320a0201000400' class="hander_banal"></video> -->
+    </view> 
+    <text class='h_title'>骑手：美团上市见证人</text>
+    <text class="time">2019-2-23</text>
+    <text class="p_txt">9月20日上午，位于香港中环德辅道的香港联交所内人头攒动，在这 里备受关注的美团上市敲锣仪式即将启动。   </text>
+     <text class="p_txt2">在致辞典礼上，美王兴发表了讲话，他表示，今天美团在香港港交所 挂牌非常高，美团要感谢在过去一年里有3.4亿人在美团上面花钱的人</text>
+    <view class="c_image">
+        <image mode="widthFix" src="http://game.flyh5.cn/resources/game/wechat/file/mtimg/banal2.png" class="c_banal"></image>
+    </view> 
+    <text class="p_txt3">在致辞典礼上，美王兴发表了讲话，他表示，今天美团在香港港交所 挂牌非常高，美团要感谢在过去一年里有3.4亿人在美团上面花钱的人</text>
+    <view class="txtimg" id="comeview">
+          <view class="hrbox">
+              <text class="hr">全部评论(100)</text>
+          </view>
+          <image mode="widthFix" src="http://game.flyh5.cn/resources/game/wechat/file/mtimg/page2_16.png" class="imgshare" bindtap="submittalk"></image>
+    </view>
+
+    <view class="timeline" wx:for="{{remarkarr}}" wx:key="item">
+        <view class="t_img">
+             <image></image> 
+        </view>
+        <view class="message">
+              <image mode="widthFix" class="doticon" src="http://game.flyh5.cn/resources/game/wechat/file/mtimg/page2_25.png" hidden="{{index%2==0}}"></image>
+               <image mode="widthFix" class="doticon" src="http://game.flyh5.cn/resources/game/wechat/file/mtimg/page2_26.png" hidden="{{index%2!=0}}"></image>
+
+              <image mode="widthFix" src="http://game.flyh5.cn/resources/game/wechat/file/mtimg/page2_33.png" class="t_icon" hidden="{{index%2!=0}}"></image>
+               <image mode="widthFix" src="http://game.flyh5.cn/resources/game/wechat/file/mtimg/page2_34.png" class="t_icon" hidden="{{index%2==0}}"></image>
+
+              <text class="nickname">用户昵称</text>
+              <text class='delinfo'>
+              告诉你个秘密！告诉你个秘密！告诉你个秘密！告诉你个秘密！告诉你个秘密！告诉你个秘密！告诉你个秘密！告诉你个秘密！告诉你个秘密！
+              </text>
+        </view>
+        <view class="showtime">
+
+        <image mode="widthFix" src="http://game.flyh5.cn/resources/game/wechat/file/mtimg/lem.png" class="collicon {{index%2==0?'zan':''}}"  bindtap="clickzan" data-idx='{{index}}'></image>
+        
+        
+        
+        <image mode="widthFix" src="http://game.flyh5.cn/resources/game/wechat/file/mtimg/emo.png" class="collicon {{index%2==0?'':'zan'}}"  bindtap="clickzan" data-idx='{{index}}'></image>
+
+              <text class="collnum">1000</text>
+              <image class="delicon" src="http://game.flyh5.cn/resources/game/wechat/file/mtimg/page2_22.png" mode="widthFix" bindtap="delremark"></image> 
+              <text class="colltime">2019-5-23 10：00</text>
+        </view>
+    </view>
+
+    <!-- <view class="timeline">
+        <view class="t_img">
+           
+        </view>
+        <view class="message">
+              <image mode="widthFix" class="doticon" src="http://game.flyh5.cn/resources/game/wechat/file/mtimg/page2_25.png"></image>
+              <image mode="widthFix" src="http://game.flyh5.cn/resources/game/wechat/file/mtimg/page2_34.png" class="t_icon"></image>
+              <text class="nickname">用户昵称</text>
+              <text class='delinfo'>
+                告诉你个秘密！告诉你个秘密！告诉你个秘密！告诉你个秘密！告诉你个秘密！告诉你个秘密！告诉你个秘密！告诉你个秘密！告诉你个秘密！
+              </text>
+        </view>
+        <view class="showtime">
+              <image mode="widthFix" src="http://game.flyh5.cn/resources/game/wechat/file/mtimg/page2_18.png" class="collicon"></image>
+              <image mode="widthFix" src="http://game.flyh5.cn/resources/game/wechat/file/mtimg/emo.png" class="collicon"></image>
+              <text class="collnum">1000</text>
+              <image class="delicon" src="http://game.flyh5.cn/resources/game/wechat/file/mtimg/page2_22.png" mode="widthFix"></image>
+              <text class="colltime">2019-5-23 10：00</text>
+        </view>
+    </view> -->
+
+
+
+    <view class='giftbox'>
+        <image mode="widthFix" src="http://game.flyh5.cn/resources/game/wechat/file/mtimg/page1_30.png" class="giftlink" bindtap="gostroe"></image>  
+    </view>
+    <view class="f_zhanwei"></view>
+    <view class="foot_box">
+        
+        <image mode="widthFix" src="http://game.flyh5.cn/resources/game/wechat/file/mtimg/page2_4.png" class="whiteicon"></image>
+        <text catchtap="remarkare">评一下</text>
+        <image mode="widthFix" src="http://game.flyh5.cn/resources/game/wechat/file/mtimg/page2_7.png" class="whiteicon" bindtap="sharepage" open-type="share"></image>
+        
+        <image mode="widthFix" src="http://game.flyh5.cn/resources/game/wechat/file/mtimg/page2_19.png" class="whiteicon {{colled?'colled':'nocolled'}}"  bindtap="givelike"></image>
+          
+          <image mode="widthFix" src="http://game.flyh5.cn/resources/game/wechat/file/mtimg/bem.png" class="whiteicon {{colled?'nocolled':'colled'}}" bindtap="givelike"></image>
+
+        <image mode="widthFix" src="http://game.flyh5.cn/resources/game/wechat/file/mtimg/page2_5.png" class="whiteicon" bindtap="settop"></image>
+        <button open-type="share" >转发</button>
+        <text class="infonum">99</text>
+        <text class="collnum">99</text>
+    </view>
+    <view class="remarkbox {{remarkshow ? 'uppop' : 'downpop'}}">
+      <textarea placeholder='输入你的评论内容(限140字)' placeholder-class="areastyle" fixed="true" cursor-spacing="100"></textarea> 
+      <!-- <button class="subbtn" catchtap="lysub">留言提交</button> -->
+      <image mode="widthFix" class="subbtn" catchtap="lysub" src="http://game.flyh5.cn/resources/game/wechat/file/mtimg/page3_5.png"></image>
+    </view>
+    <view class="zhezhao {{remarkshow || c_img?'show':'hide'}}"  bindtap="areahidden"></view>
+    <view class="popshow {{c_img?'show' : 'hide'}}">
+       <text>保存成功</text>
+       <text>图片已保存到相册,快去分享吧！</text>
+       <!-- <text>确定</text> -->
+       <image mode="widthFix" src="http://game.flyh5.cn/resources/game/wechat/file/mtimg/page4_8.png"></image>
+    </view>
+    
+</view>
+</scroll-view>

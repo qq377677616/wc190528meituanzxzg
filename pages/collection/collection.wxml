@@ -1,0 +1,8 @@
+<view>
+     <text class="nickname">用户昵称</text>
+     <view class="t_img"></view>
+     <image mode="widthFix" src="http://game.flyh5.cn/resources/game/wechat/file/mtimg/page9_2.png" class="bgimg"></image>
+     <image mode="widthFix" src="http://game.flyh5.cn/resources/game/wechat/file/mtimg/page9_3.png" class="collicon"></image>
+     <image mode="widthFix" src="http://game.flyh5.cn/resources/game/wechat/file/mtimg/page9_6.png" class="collbtn" bindtap="mycollect"></image>
+     <image mode="widthFix" src="http://game.flyh5.cn/resources/game/wechat/file/mtimg/page2_8.png" class="collbtn2"></image>
+</view>

@@ -1,0 +1,21 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/deltail_list/deltail_list",
+    "pages/browse/browse",
+    "pages/index/out",
+    "pages/collectlist/nocollect",
+    "pages/collectlist/collectlist",
+    "pages/collection/collection",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "navigateToMiniProgramAppIdList": [
+    "wx8b272108271dd522"
+  ]
+}

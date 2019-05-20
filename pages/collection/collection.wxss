@@ -1,0 +1,52 @@
+.bgimg{
+      width: 80%;
+      position: fixed;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%,-50%)
+}
+.t_img{
+       width: 65px;
+       height: 65px;
+       border-radius: 50%;
+       border: 1px solid #dedede;
+       position:fixed;
+       left: 50%;
+       top: 20%;
+       z-index: 99;
+       transform: translateX(-50%);
+       background-color: red; 
+}
+.collicon{
+       position: fixed;
+       left: 50%;
+       transform: translateX(-50%);
+       top: 45%;
+       width: 70px;
+}
+.nickname{
+       display: block;
+       position: fixed;
+       width: 60%;
+       left: 50%;
+       transform: translateX(-50%);
+       top: 35%;
+       text-align: center;
+       padding-bottom: 15px;
+       font-size: 16px;
+       border-bottom: 1px solid #2eb3a4;
+       z-index: 99;
+}
+.collbtn,.collbtn2{
+       display: block;
+       position: fixed;
+       width: 30%;
+       left: 50%;
+       transform: translateX(-50%);
+       top: 59%;    
+       z-index: 99;
+} 
+.collbtn2{
+       top: 85%;
+       width: 50%; 
+}

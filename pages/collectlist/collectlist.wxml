@@ -1,0 +1,58 @@
+<view>
+<view  bindtap="linkDel" class="setwidth">
+        <view class="imgtxt_list oddcolor">
+            <image class="imgbox"></image>
+            <view class="txtbox">
+                <view class="row">
+                  <text class="txt_title">社会价值</text>
+                  <text class="txt_ct">王兴:美团要做社会</text>
+                  <image mode="widthFix" src='http://game.flyh5.cn/resources/game/wechat/file/mtimg/page1_32.png'></image>
+                </view>
+                <text class="txttime">2019-5-23</text>
+                <text class="times">100</text>
+            </view>
+        </view>
+    </view>
+    <view class="setwidth">
+        <view class="imgtxt_list evencolor">
+            <image class="imgbox"></image>
+            <view class="txtbox">
+                <view class="row">
+                  <text class="txt_title">社会价值</text>
+                  <text class="txt_ct">王兴:美团要做社会</text>
+                  <image mode="widthFix" src='http://game.flyh5.cn/resources/game/wechat/file/mtimg/page1_32.png'></image>
+                </view>
+                <text class="txttime">2019-5-23</text>
+                <text class="times">100</text>
+            </view>
+        </view>
+    </view>
+    <view class="setwidth">
+        <view class="imgtxt_list">
+            <image class="imgbox"></image>
+            <view class="txtbox">
+                <view class="row">
+                  <text class="txt_title">社会价值</text>
+                  <text class="txt_ct">王兴:美团要做社会</text>
+                  <image mode="widthFix" src='http://game.flyh5.cn/resources/game/wechat/file/mtimg/page1_32.png'></image>
+                </view>
+                <text class="txttime">2019-5-23</text>
+                <text class="times">100</text>
+            </view>
+        </view>
+    </view>
+    <view class="setwidth">
+        <view class="imgtxt_list evencolor">
+            <image class="imgbox"></image>
+            <view class="txtbox">
+                <view class="row">
+                  <text class="txt_title">社会价值</text>
+                  <text class="txt_ct">王兴:美团要做社会</text>
+                  <image mode="widthFix" src='http://game.flyh5.cn/resources/game/wechat/file/mtimg/page1_32.png'></image>
+                </view>
+                <text class="txttime">2019-5-23</text>
+                <text class="times">100</text>
+            </view>
+        </view>
+    </view>
+    </view>
